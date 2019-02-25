@@ -9,34 +9,36 @@ body
 
 header
     background: linear-gradient(0deg, rgba(51, 57, 70, 0.9), rgba(51, 57, 70, 0.9)), 
-    url(../img/slide_1.jpg)
+    url(../img/slide_1.jpg) no-repeat
+    background-size: cover     
 .caption
     font-family: Podkova
     font-style: normal
     font-weight: normal
 
-.container
+.indexMenu .container
     display: flex
     justify-content: space-between
+    padding: 0
 .indexMenu
     padding-left: 50px
     padding-top: 48px
     display: flex
     align-items: center
-    line-height: 49px
-
 .brendungLogo
     line-height: 49px
     font-size: 49px
     color: #FFFFFF
+.indexMenu__logo_left
+    display: flex
+    align-items: center     
 .indexMenu__logo_left img
-    padding-right: 25px
+    padding-right: 20px
 .indexMenu__logo_right img
-    padding-right: 25px
+    padding-left: 25px
 .indexMenu__findhideMenu
     display: flex
     align-items: center
-    padding-right: 50px
 .find
     background: #FFFFFF
     width: 46px
@@ -61,6 +63,3 @@ header
     background: white
     margin: 2px
     
-
-.t
-    margin: 0  
