@@ -3,8 +3,70 @@ body {
   padding: 0; }
 
 header {
+<<<<<<< HEAD
   background: linear-gradient(0deg, rgba(51, 57, 70, 0.9), rgba(51, 57, 70, 0.9)), url(../img/slide_1.jpg) no-repeat;
   background-size: cover; }
+=======
+  background: linear-gradient(0deg, rgba(51, 57, 70, 0.9), rgba(51, 57, 70, 0.9)), url(../img/slide_1.jpg); }
+
+.caption {
+  font-family: Podkova;
+  font-style: normal;
+  font-weight: normal; }
+
+.container {
+  display: flex;
+  justify-content: space-between; }
+
+.indexMenu {
+  padding-left: 50px;
+  padding-top: 48px;
+  display: flex;
+  align-items: center;
+  line-height: 49px; }
+
+.brendungLogo {
+  line-height: 49px;
+  font-size: 49px;
+  color: #FFFFFF; }
+
+.indexMenu__logo_left img {
+  padding-right: 25px; }
+
+.indexMenu__logo_right img {
+  padding-right: 25px; }
+
+.indexMenu__findhideMenu {
+  display: flex;
+  align-items: center;
+  padding-right: 50px; }
+
+.find {
+  background: #FFFFFF;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px; }
+
+.hideMenu {
+  background: #CD4343;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.hideMenu span {
+  height: 2px;
+  width: 16px;
+  background: white;
+  margin: 2px; }
+>>>>>>> 8133d1cb4010ade9fd6cd816d7d750c4eec32579
 
 .caption {
   font-family: Podkova;
